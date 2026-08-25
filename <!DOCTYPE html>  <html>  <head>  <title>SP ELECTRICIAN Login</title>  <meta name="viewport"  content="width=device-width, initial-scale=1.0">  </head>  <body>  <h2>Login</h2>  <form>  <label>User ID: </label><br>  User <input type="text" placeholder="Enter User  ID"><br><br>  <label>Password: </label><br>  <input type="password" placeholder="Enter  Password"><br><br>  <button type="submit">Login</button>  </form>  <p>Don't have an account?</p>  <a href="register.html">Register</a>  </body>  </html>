@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>SP ELECTRICIAN Login</title>
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<h2>Login</h2>
+
+<form>
+
+<label>User ID: </label><br>
+
+User <input type="text" placeholder="Enter User
+
+ID"><br><br>
+
+<label>Password: </label><br>
+
+<input type="password" placeholder="Enter
+
+Password"><br><br>
+
+<button type="submit">Login</button>
+
+</form>
+
+<p>Don't have an account?</p>
+
+<a href="register.html">Register</a>
+
+</body>
+
+</html>
