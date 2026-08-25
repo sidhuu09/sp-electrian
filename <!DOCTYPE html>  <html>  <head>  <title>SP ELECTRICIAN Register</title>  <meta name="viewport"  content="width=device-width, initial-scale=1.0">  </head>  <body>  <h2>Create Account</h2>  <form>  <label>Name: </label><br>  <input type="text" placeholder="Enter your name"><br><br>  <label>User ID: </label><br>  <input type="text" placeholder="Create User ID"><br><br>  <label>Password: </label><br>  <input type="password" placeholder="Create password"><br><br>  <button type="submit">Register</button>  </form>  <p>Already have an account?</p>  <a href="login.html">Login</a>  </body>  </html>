@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>SP ELECTRICIAN Register</title>
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<h2>Create Account</h2>
+
+<form>
+
+<label>Name: </label><br>
+
+<input type="text" placeholder="Enter your name"><br><br>
+
+<label>User ID: </label><br>
+
+<input type="text" placeholder="Create User ID"><br><br>
+
+<label>Password: </label><br>
+
+<input type="password" placeholder="Create password"><br><br>
+
+<button type="submit">Register</button>
+
+</form>
+
+<p>Already have an account?</p>
+
+<a href="login.html">Login</a>
+
+</body>
+
+</html>
