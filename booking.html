@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Booking | SP ELECTRICIAN</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">⚡ SP <span>ELECTRICIAN</span></div>
+  <nav>
+    <a href="index.html#home">Home</a>
+    <a href="index.html#about">About</a>
+    <a href="booking.html">Booking</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="index.html#login">Login</a>
+  </nav>
+</header>
+
+<section class="booking-section">
+  <h2>Online Booking</h2>
+  <p class="section-text">Fill in your details and send your service request directly to SP ELECTRICIAN on WhatsApp.</p>
+
+  <form class="login-box" id="bookingForm">
+    <label>Full Name</label>
+    <input id="bookName" type="text" placeholder="Enter your name" required>
+
+    <label>Mobile Number</label>
+    <input id="bookPhone" type="tel" pattern="[0-9]{10}" placeholder="10-digit mobile number" required>
+
+    <label>Service Required</label>
+    <select id="service" required>
+      <option value="">Select a service</option>
+      <option>Electrical Repair</option>
+      <option>Wiring / Installation</option>
+      <option>Fan / Light Repair</option>
+      <option>Home Electrical Service</option>
+      <option>Other</option>
+    </select>
+
+    <label>Preferred Date</label>
+    <input id="bookDate" type="date" required>
+
+    <label>Preferred Time</label>
+    <input id="bookTime" type="time" required>
+
+    <label>Service Address</label>
+    <input id="bookAddress" type="text" placeholder="Enter service address" required>
+
+    <label>Problem / Message</label>
+    <textarea id="bookMessage" rows="4" placeholder="Describe the electrical problem"></textarea>
+
+    <button class="btn primary" type="submit">📲 Send Booking on WhatsApp</button>
+    <p id="bookingStatus"></p>
+  </form>
+</section>
+
+<footer>© 2026 SP ELECTRICIAN · Muniguda · 8144722094</footer>
+<script src="script.js"></script>
+</body>
+</html>
