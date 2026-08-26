@@ -6,6 +6,21 @@
 <title>SP ELECTRICIAN | Muniguda</title>
 <link rel="stylesheet" href="style.css">
 </head>
+  <script
+
+src="https://cdn.jsdelivr.net/npm/@supabase /supabase-js@2"></script>
+
+<script>
+
+const SUPABASE_URL = " sb_publishable_auZYnCsFiZDzd7SFBdk5bQ_3t-cb9X_";
+
+const SUPABASE_PUBLISHABLE_KEY = " https://hoyitflwlnxdzbmgjwpw.supabase.co/rest/v1/ ";
+
+const supabaseClient supabase.createClient( SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY
+
+);
+
+</script>
 <body>
   <a href="login.html">Login</a>
 
@@ -58,7 +73,16 @@
   <form class="login-box" onsubmit="login(event)">
     <label>Username</label>
     <input id="username" type="text" placeholder="Enter username" required>
+    <label>Email:</label><br>
+<input type="email" id="email" placeholder="Enter your email" required><br><br>
+    <label>Email:</label><br>
+
+<input type="email" id="email"
+
+placeholder="Enter your email" required><br><br>
     <label>Password</label>
+    <label>Password:</label><br>
+<input type="password" id="password" placeholder="Create password" required><br><br>
     <input id="password" type="password" placeholder="Enter password" required>
     <button class="btn primary" type="submit">Login</button>
     <p id="loginMessage"></p>
